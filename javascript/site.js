@@ -44,6 +44,7 @@ $(document).ready(function() {
     e.preventDefault()
     closePopover();
     var popover = $($(this).data('popover'));
+    console.log(popover);
     popover.toggleClass('open')
     e.stopImmediatePropagation();
   }
