@@ -1,6 +1,7 @@
 .values {
   background-image: url('../images/photos/values.jpg');
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding-bottom: 5rem;
 }
@@ -12,30 +13,61 @@
   top: 10rem;
   left:60rem;
 }
-
+p {
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 1.8rem;
+}
+.band{
+  background-color: #5B5E90; /*purple*/
+  height :50px;
+  position: relative;
+  top:-10rem;
+}
+.band h3{
+  color:#fff;
+  position:relative;
+  left: 15rem;
+}
 .about{
-  background-color: #5B5E90;
-/*  background-image: url('../images/photos/graduation jump.jpg');
-*/
+  background-color: #fff;
+
   background-size: cover;
   padding-bottom: 0rem;
-  padding: 10rem 0 19rem;
+  padding: 10rem 0 10rem;
 
 }
 
+.about .two-thirds{
+  border-style: solid;
+  border-right: thin solid #5B5E90;
+  border-top: none;
+  border-left: none;
+  border-bottom:none;
+}
 .about .one-third, 
 .about .two-thirds {
   background: white;
   background: rgba(255,255,255,.5);
-  padding: 10px;
-  border-radius: 5px;
+  padding: 1px;
+  border-radius: 1px;
+  
+}
+.about .two-thirds img, hr, p{
+  width:70rem;
+  
 }
 
+.about .one-third img{
+  width:25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 .section {
-  padding: 40rem 0 19rem;
+  padding: 40rem 0 25rem;
 }
 .container {
-  max-width: 800px; }
+  max-width: 1500px; }
 
 .img-circle {
   border-radius: 50%;
@@ -206,7 +238,7 @@
     display: block; }
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
-    width: 80%; }
+    width: 90%; }
 
   /* Popover */
   .popover.open {
