@@ -2,10 +2,10 @@
   background-image: url('../images/photos/values.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-
   background-attachment: fixed;
   color: #fff;
-  padding-bottom: 0rem;
+  padding-bottom: 20rem;
+
 }
 
 .values h2{
@@ -40,18 +40,12 @@ p {
 
 }
 
-.about .two-thirds{
-  border-style: solid;
-  border-right: thin solid #5B5E90;
-  border-top: none;
-  border-left: none;
-  border-bottom:none;
-}
+
 .about .one-third, 
 .about .two-thirds {
   background: white;
   background: rgba(255,255,255,.5);
-  padding: 1px;
+  padding: 2rem;
   border-radius: 1px;
   
 }
@@ -59,6 +53,7 @@ p {
   max-width:70rem;
   width: 100%;
   height: auto;
+
   
 }
 
@@ -71,7 +66,7 @@ p {
   height: auto;
 }
 .section {
-  padding: 40rem 0 25rem;
+  padding: 25rem 0 0rem;
 }
 .container {
   max-width: 1500px; }
@@ -178,6 +173,18 @@ p {
 
 /* Larger than phone */
 @media (min-width: 550px) {
+  .values {
+  background-image: url('../images/photos/values.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding-bottom: 20rem;
+
+}
+.section {
+  padding: 40rem 0 20rem;
+}
   .header {
     margin-top: 18rem; }
   .value-props {
@@ -199,10 +206,18 @@ p {
     height: 100%;
     left: 0;
     max-height: none; }
+    .about .two-thirds{
+  border-style: solid;
+  border-right: thin solid #5B5E90;
+  border-top: none;
+  border-left: none;
+  border-bottom:none;
+}
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
