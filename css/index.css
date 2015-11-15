@@ -1,9 +1,11 @@
 .values {
   background-image: url('../images/photos/values.jpg');
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
   background-attachment: fixed;
   color: #fff;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
 }
 
 .values h2{
@@ -31,7 +33,8 @@ p {
 .about{
   background-color: #fff;
 
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   padding-bottom: 0rem;
   padding: 10rem 0 10rem;
 
