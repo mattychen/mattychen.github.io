@@ -1,3 +1,46 @@
+.container {
+  max-width: 800px; }
+
+.img-circle {
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+  position:relative;
+  top:5px;
+}
+
+.band h3{
+  color:#fff;
+  position:relative;
+  left: 15rem;
+}
+.band{
+  background-color: #5B5E90; /*purple*/
+  height :50px;
+  position: relative;
+  top:0rem;
+}
+.band h3{
+  color:#fff;
+  position:relative;
+  left: 15rem;
+}
+.about .one-third, 
+.about .two-thirds {
+  background: white;
+  background: rgba(255,255,255,.5);
+  padding: 2rem;
+  border-radius: 1px;
+  
+}
+.about .two-thirds img, hr, p{
+  max-width:70rem;
+  width: 100%;
+  height: auto;
+
+  
+}
+
 .values {
   background-image: url('../images/photos/values.jpg');
   background-size: 100%;
@@ -15,48 +58,6 @@
   top: 10rem;
   left:60rem;
 }
-p {
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 1.8rem;
-}
-.band{
-  background-color: #5B5E90; /*purple*/
-  height :50px;
-  position: relative;
-  top:-10rem;
-}
-.band h3{
-  color:#fff;
-  position:relative;
-  left: 15rem;
-}
-.about{
-  background-color: #fff;
-
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding-bottom: 0rem;
-  padding: 10rem 0 10rem;
-
-}
-
-
-.about .one-third, 
-.about .two-thirds {
-  background: white;
-  background: rgba(255,255,255,.5);
-  padding: 2rem;
-  border-radius: 1px;
-  
-}
-.about .two-thirds img, hr, p{
-  max-width:70rem;
-  width: 100%;
-  height: auto;
-
-  
-}
-
 .about .one-third img{
   max-width:25rem;
   display: block;
@@ -65,28 +66,13 @@ p {
   width: 100%;
   height: auto;
 }
-.section {
-  padding: 25rem 0 0rem;
-}
-.container {
-  width:100%;
-   }
 
-.img-circle {
-  border-radius: 50%;
-  height:50px;
-  width:50px;
-  position:relative;
-  top:5px;
-}
 
-.media-icon{
-  width:35px;
-  height:35px;
-  position: relative;
-  left: -10px;
-  top:10px;
-}
+
+
+
+
+
 .header {
   margin-top: 6rem;
   text-align: center; }
@@ -171,21 +157,8 @@ p {
 .navbar {
   display: none; }
 
-
-/* Larger than phone was 550 before */
+/* Larger than phone */
 @media (min-width: 550px) {
-  .values {
-  background-image: url('../images/photos/values.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #fff;
-  padding-bottom: 20rem;
-
-}
-.section {
-  padding: 40rem 0 20rem;
-}
   .header {
     margin-top: 18rem; }
   .value-props {
@@ -207,18 +180,10 @@ p {
     height: 100%;
     left: 0;
     max-height: none; }
-    .about .two-thirds{
-  border-style: solid;
-  border-right: thin solid #5B5E90;
-  border-top: none;
-  border-left: none;
-  border-bottom:none;
-}
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
@@ -244,15 +209,15 @@ p {
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 600;
     letter-spacing: .2rem;
     margin-right: 35px;
     text-decoration: none;
     line-height: 6.5rem;
-    color: #5B5E90; }
+    color: #222; }
   .navbar-link.active {
-    color: #D5B0EA; }
+    color: #33C3F0; }
   .has-docked-nav .navbar {
     position: fixed;
     top: 0;
@@ -261,7 +226,7 @@ p {
     display: block; }
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
-    width: 90%; }
+    width: 80%; }
 
   /* Popover */
   .popover.open {
@@ -309,16 +274,15 @@ p {
     margin: 0; }
   .popover-link {
     position: relative;
-    color: #253163; 
+    color: #222;
     display: block;
     padding: 8px 20px;
     border-bottom: 1px solid #eee;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: 600;
-    width: 15.0rem;
-    text-align: left;
+    text-align: center;
     letter-spacing: .1rem; }
   .popover-item:first-child .popover-link {
     border-radius: 4px 4px 0 0; }
@@ -327,8 +291,8 @@ p {
     border-bottom-width: 0; }
   .popover-link:hover {
     color: #fff;
-    background: #5B5E90; }
+    background: #33C3F0; }
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #fff; }
+    border-bottom-color: #33C3F0; }
 }
