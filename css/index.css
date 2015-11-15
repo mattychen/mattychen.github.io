@@ -69,7 +69,8 @@ p {
   padding: 25rem 0 0rem;
 }
 .container {
-  max-width: 1500px; }
+  max-width: 1500px;
+  width:100%; }
 
 .img-circle {
   border-radius: 50%;
@@ -171,7 +172,7 @@ p {
   display: none; }
 
 
-/* Larger than phone */
+/* Larger than phone was 550 before */
 @media (min-width: 550px) {
   .values {
   background-image: url('../images/photos/values.jpg');
